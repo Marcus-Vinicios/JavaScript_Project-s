@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#container{
+    margin: 0px auto;
+    padding: 20px;
+    margin-top: 30px;
+    width: 600px;
+    height: 400px;
+    background-color: #7986cb ;
+}
+#header{
+    height: 8vh;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#footer{
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 0px;
+}
+#menu{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 15vh;
+    position: absolute;
+    top: 80px;
+    left: -30px;
+
+}
+#htext{
+    text-align: center;
+}
+#content{
+    background-color:  cadetblue;
+    position: absolute;
+    left: 40%;
+    right: 44%;
+    top: 30vh;
+
+}
+#center{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 65px;
+}
+.center{
+    position: absolute;
+    left: 40%;
+    top: 93vh;
+}
+#table{
+    background-color: #263238;
+    width: 35px;
+}

@@ -1,0 +1,94 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#container {
+    margin: auto;
+    padding: auto;
+    margin-top: 9vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    #container {
+        height: 100%;
+        justify-items: center;
+    }
+}
+
+#header {
+    width: 100%;
+    height: 6vh;
+    background-color: #7986cb
+}
+
+#logo{
+    margin: auto;
+    padding: 0 5px;
+    display: flex;
+}
+
+#logo img{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#txt{
+    margin-top: 3px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#content{
+    padding: auto;
+    margin: auto;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 3px;
+    background-color: rgba(19, 19, 19, 0.3);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #454d6b;
+    border-radius: 3px;
+    width: 6vh;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 30px;
+    height: 16%;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+.card:hover{
+    background-color: rgb(211, 245, 253);
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    height: 6vh;
+    margin-top: 8.5vh;
+    background-color: #7986cb;
+}
+
+.txt{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: #7986cb;
+}
